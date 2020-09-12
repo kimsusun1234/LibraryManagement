@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilBookTitleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Type"
+        android:layout_margin="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etBookTypeNameDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="aaaaa"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilBookTypeDesDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Description"
+        android:layout_margin="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etBookTypeDesDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="aaaaa"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilBookTypePositionDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Postion"
+        android:layout_margin="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etBookTypePositionDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="aaaaa"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

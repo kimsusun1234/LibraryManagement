@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:text="Bill Date"
+        android:id="@+id/txtBillDate"
+        android:gravity="center_vertical"
+        android:textSize="17sp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="Price"
+        android:id="@+id/txtBillCost"
+        android:gravity="center_vertical|right"
+        android:textSize="17sp"
+        android:paddingRight="16dp"/>
+
+</LinearLayout>

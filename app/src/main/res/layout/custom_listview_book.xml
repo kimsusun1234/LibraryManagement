@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="Book Title"
+        android:id="@+id/txtBookTitle"
+        android:gravity="center_vertical"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="Book Author"
+        android:id="@+id/txtBookAuthor"
+        android:gravity="center_vertical"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Quantity"
+        android:id="@+id/txtBookAmount"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="Book Price"
+        android:id="@+id/txtBookPrice"
+        android:gravity="center_vertical|right"
+        android:textSize="17sp"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>

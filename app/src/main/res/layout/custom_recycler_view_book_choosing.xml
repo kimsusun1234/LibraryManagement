@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="BookTitle"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:id="@+id/txtTitleAddBillDialog"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Author"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:id="@+id/txtAuthorAddBillDialog"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:id="@+id/btnDecreaseAddBillDialog"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:id="@+id/txtQuantityAddBillDialog"
+            android:textSize="17sp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:id="@+id/btnIncreaseAddBookDialog"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="Price"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical|right"
+        android:id="@+id/txtPriceAddBillDialog"
+        android:textSize="17sp"/>
+
+</LinearLayout>

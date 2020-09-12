@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:paddingHorizontal="5dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6F6F6F"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:id="@+id/txtTitleTopBook"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="Author"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/txtAuthorTopBook"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Publisher"
+            android:textSize="15dp"
+            android:id="@+id/txtPublisherTopBook"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="amount"
+            android:textSize="15dp"
+            android:id="@+id/txtAmountTopBook"
+            android:gravity="center_vertical|right"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

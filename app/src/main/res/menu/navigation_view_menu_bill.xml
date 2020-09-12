@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itBill"
+        android:title="Bill Management"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:iconTint="#686868"/>
+
+    <item android:id="@+id/itBook"
+        android:title="Book Management"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:iconTint="#686868"/>
+
+    <item
+        android:id="@+id/itBookType"
+        android:title="Book Type"
+        android:icon="@drawable/ic_format_align_left_black_24dp"
+        android:iconTint="#686868"/>
+
+    <item
+        android:id="@+id/itAnalytics"
+        android:title="Analytics"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:iconTint="#686868"/>
+
+    <item
+        android:id="@+id/itTopBook"
+        android:title="Top 10 books of month"
+        android:icon="@drawable/ic_done_all_black_24dp"
+        android:iconTint="#686868"/>
+</menu>
